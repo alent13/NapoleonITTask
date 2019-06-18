@@ -29,9 +29,6 @@ class OfferItemUI : AnkoComponent<ViewGroup> {
     override fun createView(ui: AnkoContext<ViewGroup>): View = with(ui) {
         relativeLayout {
             lparams(matchParent, dip(112))
-            view {
-                backgroundColorResource = R.color.offerDividerColor
-            }.lparams(matchParent, dip(1))
             constraintLayout {
                 lparams(matchParent, matchParent)
                 backgroundColorResource = android.R.color.white
@@ -129,6 +126,11 @@ class OfferItemUI : AnkoComponent<ViewGroup> {
                     bottomToBottom = R.id.image
                     setMargins(dip(12), 0, 0, 0)
                 }
+            }
+            view {
+                backgroundColorResource = R.color.offerDividerColor
+            }.lparams(matchParent, dip(1)) {
+                alignParentTop()
             }
         }
     }

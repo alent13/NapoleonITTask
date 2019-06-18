@@ -73,6 +73,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/applexis/napoleonittask/data/DBServiceImpl.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/applexis/napoleonittask/data/Imple.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/applexis/napoleonittask/data/MainScope.kt">
           <value>
             <set />
