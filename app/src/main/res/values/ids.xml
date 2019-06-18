@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="bannerImage" format="integer" type="id"/>
+    <item name="bannerBg" format="integer" type="id"/>
+    <item name="bannerTitleText" format="integer" type="id"/>
+    <item name="bannerDescriptionText" format="integer" type="id"/>
+
+    <item name="offerImage" format="integer" type="id"/>
+    <item name="offerTitle" format="integer" type="id"/>
+    <item name="offerDescription" format="integer" type="id"/>
+    <item name="offerPrice" format="integer" type="id"/>
+    <item name="offerDiscount" format="integer" type="id"/>
+    <item name="offerDiscountPrice" format="integer" type="id"/>
+    <item name="offerRemoveButton" format="integer" type="id"/>
+    <item name="offerBasket" format="integer" type="id"/>
+</resources>

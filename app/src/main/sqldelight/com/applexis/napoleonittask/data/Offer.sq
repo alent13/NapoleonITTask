@@ -1,0 +1,19 @@
+CREATE TABLE Offer (
+    id TEXT NOT NULL,
+    name TEXT NOT NULL,
+    desc TEXT,
+    groupName TEXT NOT NULL,
+    type TEXT NOT NULL,
+    image TEXT NOT NULL,
+    price INTEGER AS Int,
+    discount REAL AS Float
+);
+
+selectAll:
+SELECT * FROM Offer;
+
+save:
+INSERT INTO Offer(id, name, desc, groupName, type, image, price, discount) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+
+clear:
+DELETE FROM Offer;

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#f7f8f8</color>
+    <color name="colorPrimaryDark">#f1f1f1</color>
+    <color name="colorAccent">#588ae9</color>
+
+    <color name="secondaryTextColor">#4f5b63</color>
+
+    <color name="tabSelectedBg">#eef3fe</color>
+    <color name="tabSelected">#588ae9</color>
+    <color name="tabTextColor">#7b7b7b</color>
+    <color name="tabSelectedTextColor">#588ae9</color>
+
+    <color name="bannerBottomBg">#ccffffff</color>
+
+    <color name="offerDividerColor">#cdcdcd</color>
+    <color name="offerTitleBg">#efeff4</color>
+    <color name="offerTitleTextColor">#646469</color>
+    <color name="offerDiscount">#ee7c78</color>
+    <color name="offerSecondaryColor">#808080</color>
+    <color name="offerClearBg">#ea3223</color>
 </resources>
